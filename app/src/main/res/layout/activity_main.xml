@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yuxibing.mydaggerdemo.activity.MainActivity">
+
+    <Button
+        android:id="@+id/btn_inject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_inject" />
+    <Button
+        android:id="@+id/btn_module"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_module" />
+    <Button
+        android:id="@+id/btn_third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_third" />
+    <Button
+        android:id="@+id/btn_zhuru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_zhuru" />
+    <Button
+        android:id="@+id/btn_inject_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_inject_activity" />
+    <Button
+        android:id="@+id/btn_second_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_second_activity" />
+    <Button
+        android:id="@+id/btn_third_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btn_third_activity" />
+</LinearLayout>
